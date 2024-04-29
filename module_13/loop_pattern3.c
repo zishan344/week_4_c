@@ -3,13 +3,26 @@ int main()
 {
    int n ,k=1,s=0;
 scanf("%d",&n);
-for (int i = 1; i <= n; i++)
+/* for (int i = 1; i <= n; i++)
 {
   for (int j = 1; j <=k ; j++)
   {
    printf("%d ",j);
   }
    k++;
+  printf("\n");
+}
+
+ */
+for (int i = n; i > 0; i--)
+{
+    // printf("%d ",i);
+     
+   for (int j = k; j <=i; j++)
+   {
+     printf("%d ",j);
+   }
+   
   printf("\n");
 }
 
