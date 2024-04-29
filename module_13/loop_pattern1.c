@@ -23,8 +23,6 @@ int main()
     {
      printf("*");
     }  
-     
-    // k--;
     printf("\n");
   }
   
