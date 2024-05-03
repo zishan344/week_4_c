@@ -1,3 +1,3 @@
- if(arr[i] == 1){
-    break;
-  }
+
+  char str[1001];
+  fgets(str, 1001, stdin);
